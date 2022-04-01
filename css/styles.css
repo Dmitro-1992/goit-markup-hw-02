@@ -1,5 +1,69 @@
-body {
+:root {
+   --primary-text-color: #212121;
+   --title-text-color: #212121,#2196F3;
+}
+body{
+background-color: #E5E5E5;
+    color: var(--primary-text-color);
+}
+.list {
+list-style: none;
+}
+/* сайт nav */
+.site-nav .link{
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#2196F3;
+ } 
+ /* section 2-4 ul list */
+.list p {
+    color: #757575;
+}
+/* hero */
+.hero-title {
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* цвет фона вторичный 
+#FFFFFF      #E5E5E5;     #F5F4FA*/    
+/* цвет основного текста #FFFFFF; */
+/* текст h2 #212121;*/
+/* футер адрес #FFFFFF */
+/* контакт rgba(255, 255, 255, 0.6) */
+/*вторичный текст #757575;*/
+/*сексыя наша команджа #757575 */
+/* акцент#2196F3; */
+
+/* body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   background-color: #e5e5e5;
 }
+.menu-link {
+  color: #212121;
+}
+.menu-link:hover {
+  color: #2196f3;
+  
