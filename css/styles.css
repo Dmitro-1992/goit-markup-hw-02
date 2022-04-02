@@ -1,19 +1,40 @@
+/* цвет фона вторичный 
+#FFFFFF      #E5E5E5;     #F5F4FA*/
+/* цвет основного текста #FFFFFF; */
+/* текст h2 #212121;*/
+/* футер адрес #FFFFFF */
+/* контакт rgba(255, 255, 255, 0.6) */
+/*вторичный текст #757575;*/
+/*сексыя наша команджа #757575 */
+/* акцент#2196F3; */
+
 :root {
    --primary-text-color: #212121;
    --title-text-paragraph: #757575;
    --accent-color: #2196F3;
    --primary-bg-color:#E5E5E5;
 }
-body{
-background-color: var(--primary-bg-color);
+
+body {
+    background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
-}
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+  }
+
 .list {
-list-style: none;
+  list-style: none;
 }
 /* сайт nav */
 .site-nav .link{
     color: var(--primary-text-color);
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -40,44 +61,4 @@ list-style: none;
 .button {
     color:#FFFFFF;
     background-color:var(--accent-color) ;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* цвет фона вторичный 
-#FFFFFF      #E5E5E5;     #F5F4FA*/    
-/* цвет основного текста #FFFFFF; */
-/* текст h2 #212121;*/
-/* футер адрес #FFFFFF */
-/* контакт rgba(255, 255, 255, 0.6) */
-/*вторичный текст #757575;*/
-/*сексыя наша команджа #757575 */
-/* акцент#2196F3; */
-
-/* body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #e5e5e5;
-}
-/* .menu-link {
-  color: #212121; */
-
-/* .menu-link:hover {
-  color: #2196f3; */
-  
+}   
