@@ -1,9 +1,11 @@
 :root {
    --primary-text-color: #212121;
-   --title-text-color: #212121,#2196F3;
+   --title-text-paragraph: #757575;
+   --accent-color: #2196F3;
+   --primary-bg-color:#E5E5E5;
 }
 body{
-background-color: #E5E5E5;
+background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
 }
 .list {
@@ -11,22 +13,34 @@ list-style: none;
 }
 /* сайт nav */
 .site-nav .link{
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:#2196F3;
+    color: var(--accent-color);
  } 
+ .text .link{
+    color: var(--title-text-paragraph);
+ }
+ .text .link:hover,
+ .text .link:focus {
+   color: #2196F3;
+ }
+ 
+ 
  /* section 2-4 ul list */
 .list p {
-    color: #757575;
+    color: var(--title-text-paragraph);
 }
 /* hero */
 .hero-title {
     color: #FFFFFF;
 }
-
-
+   /* button */
+.button {
+    color:#FFFFFF;
+    background-color:var(--accent-color) ;
+}
 
 
 
@@ -61,9 +75,9 @@ list-style: none;
   color: #212121;
   background-color: #e5e5e5;
 }
-.menu-link {
-  color: #212121;
-}
-.menu-link:hover {
-  color: #2196f3;
+/* .menu-link {
+  color: #212121; */
+
+/* .menu-link:hover {
+  color: #2196f3; */
   
