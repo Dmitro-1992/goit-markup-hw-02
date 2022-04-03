@@ -24,18 +24,23 @@ body {
   }
   /* logo */
 
-  .part-logo{
-color: var(--accent-color);
-font-family: Raleway, dots;
-
-font-size: 26px;
-line-height: 1,19px;
+ .logo{
+   color:#000000;
+   font-family: Raleway, dots;
+   
+  font-size: 26px;
+  line-height: 1.19px;
  }
 
-.logo {
-  color: #000000
-
+.part-logo {
+  color: var(--accent-color);
 }
+.{
+  color: var(--primary-bg-color);
+  font-family: Raleway, dots;
+  
+  }
+  
 
 .list {
   list-style: none;
@@ -46,7 +51,7 @@ line-height: 1,19px;
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.8px;
+    line-height: 1.14px;
     
 
 }
@@ -59,7 +64,7 @@ line-height: 1,19px;
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.8px;
+    line-height: 1.14px;
 
  }
  /* ul contact */
@@ -72,22 +77,53 @@ line-height: 1,19px;
  /* section 2-4 ul list */
 .list p {
     color: var(--title-text-paragraph);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;
 }
 /* hero */
 .hero-title {
     color: #FFFFFF;
-    /* font-style: normal;
-    font-weight: 900;
+
+    font-weight: 400;
     font-size: 44px;
     line-height: 60px;
-    /* or 136% */
-    
-    /* text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase; */
-} */
+    text-align: center;
+}
+
+/* заголовки h2 */
+.section-title{
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.6px;
+  text-align: center;
+}
+/* section 2-4 ul list */
+.list h3 {
+color: var(--primary-text-color);
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
+}
+/* h3 в section чем мы занемаемся */
+.list .list-title {
+color: var(--primary-text-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18px;
+}
+
    /* button */
 .button {
     color:#FFFFFF;
-    background-color:var(--accent-color) ;
-}   
+    background-color:var(--accent-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+   }
