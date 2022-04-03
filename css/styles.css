@@ -22,6 +22,20 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
   }
+  /* logo */
+
+  .part-logo{
+color: var(--accent-color);
+font-family: Raleway, dots;
+
+font-size: 26px;
+line-height: 1,19px;
+ }
+
+.logo {
+  color: #000000
+
+}
 
 .list {
   list-style: none;
@@ -29,12 +43,12 @@ body {
 /* сайт nav */
 .site-nav .link{
     color: var(--primary-text-color);
-    
-    font-style: normal;
+
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+    line-height: 0.8px;
+    
+
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -42,10 +56,16 @@ body {
  } 
  .text .link{
     color: var(--title-text-paragraph);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.8px;
+
  }
+ /* ul contact */
  .text .link:hover,
- .text .link:focus {
-   color: #2196F3;
+ .text .link:focus{
+   color: var(--accent-color);
  }
  
  
@@ -56,7 +76,16 @@ body {
 /* hero */
 .hero-title {
     color: #FFFFFF;
-}
+    /* font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    
+    /* text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase; */
+} */
    /* button */
 .button {
     color:#FFFFFF;
