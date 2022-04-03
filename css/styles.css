@@ -50,7 +50,7 @@ body {
   font-size: 14px;
   line-height: 1.71px;
  }
-  
+  /* h2наша команда в ul */
 
 .list {
   list-style: none;
@@ -159,4 +159,24 @@ line-height: 1.18px;
 body{
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+/* button */
+.filtres .btn-main .btn{
+color:var(--primary-text-color);
+background-color:#F5F4FA;
+}
+.filtres .btn-main .btn:hover,
+.filtres .btn-main .focus{
+  color:#FFFFFF;
+  background-color: #2196F3;
+}
+
+
+
+
+.list{
+  list-style: none;
+
 }
