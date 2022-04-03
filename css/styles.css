@@ -35,11 +35,17 @@ body {
 .part-logo {
   color: var(--accent-color);
 }
-.{
-  color: var(--primary-bg-color);
+/* логин в футаре */
+.active .logo{
+  color: #FFFFFF;
   font-family: Raleway, dots;
-  
+
+  font-size: 26px;
+  line-height: 1.19px;
   }
+ .active .address{
+   color: #F5F4FA;
+ }
   
 
 .list {
