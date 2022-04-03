@@ -43,8 +43,12 @@ body {
   font-size: 26px;
   line-height: 1.19px;
   }
+  /* футер адрес */
  .active .address{
    color: #F5F4FA;
+   font-family: Roboto,slab;
+  font-size: 14px;
+  line-height: 1.71px;
  }
   
 
@@ -58,13 +62,14 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
-    
-
+   
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
  } 
+ /* ul contact */
  .text .link{
     color: var(--title-text-paragraph);
     
@@ -73,7 +78,6 @@ body {
     line-height: 1.14px;
 
  }
- /* ul contact */
  .text .link:hover,
  .text .link:focus{
    color: var(--accent-color);
@@ -96,7 +100,16 @@ body {
     font-size: 44px;
     line-height: 60px;
     text-align: center;
+  
 }
+
+/* works */
+
+.works{
+  background-color: #212121;
+
+}
+
 
 /* заголовки h2 */
 .section-title{
@@ -106,7 +119,7 @@ body {
   line-height: 1.6px;
   text-align: center;
 }
-/* section 2-4 ul list */
+/* section 2-4 ul list  абзацы h3*/
 .list h3 {
 color: var(--primary-text-color);
 
@@ -133,3 +146,17 @@ line-height: 1.18px;
     line-height: 30px;
     text-align: center;
    }
+
+/* ПОРТФОЛИО */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-paragraph: #757575;
+  --accent-color: #2196F3;
+  --primary-bg-color: #E5E5E5;
+}
+
+body{
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
