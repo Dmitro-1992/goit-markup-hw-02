@@ -103,7 +103,7 @@ body {
   
 }
 
-/* works */
+/* works  фон*/
 
 .works{
   background-color: #212121;
@@ -166,6 +166,11 @@ body{
 .filtres .btn-main .btn{
 color:var(--primary-text-color);
 background-color:#F5F4FA;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+
 }
 .filtres .btn-main .btn:hover,
 .filtres .btn-main .focus{
@@ -174,9 +179,23 @@ background-color:#F5F4FA;
 }
 
 
+/* h2 */
+.projects-list .headline{
+  color:var(--primary-text-color);
 
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2px;
+}
+/* p */
+.projects-title{
+  color: var(--title-text-paragraph);
 
-.list{
-  list-style: none;
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87px;
+}
+.works {
+  background-color:#2F303A;
+  
 }
