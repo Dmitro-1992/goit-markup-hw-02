@@ -161,6 +161,7 @@ body{
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
+
 }
 /* button */
 .filtres .btn-main .btn{
@@ -194,8 +195,4 @@ line-height: 26px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87px;
-}
-.works {
-  background-color:#2F303A;
-  
 }
