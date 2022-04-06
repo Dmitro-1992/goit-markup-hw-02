@@ -179,8 +179,11 @@ letter-spacing: 0.03em;
 .filtres .btn-main .focus{
   color:var(--logo-footer-color);
   background-color: var(--accent-color);
+  
 }
-
+.filtres .btn-main{
+  list-style: none;
+}
 
 /* h2 */
 .projects-list .headline{
@@ -198,3 +201,8 @@ letter-spacing: 0.03em;
   line-height: 1.87px;
 
 }
+.projects-list {
+list-style: none;
+text-decoration: none;
+}
+  
